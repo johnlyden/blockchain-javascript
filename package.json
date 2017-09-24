@@ -4,9 +4,13 @@
   "description": "simple javascript blockchain ",
   "main": "main.js",
   "dependencies": {
-    "crypto-js": "^3.1.9-1"
+    "crypto-js": "^3.1.9-1",
+    "eslint-config-airbnb": "^15.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
